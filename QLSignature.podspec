@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "QLSignature"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.6"
   spec.summary      = "iOS 手写签名"
   spec.description  = <<-DESC
             iOS 手写签名工具
