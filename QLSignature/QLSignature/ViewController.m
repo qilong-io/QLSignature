@@ -35,6 +35,7 @@
     self.signatureImageView.image = nil;
 }
 
+#pragma mark ========== QLsignViewDelegate ==============
 - (void)QLSignatureView:(QLSignatureView *)signatureview backImage:(UIImage *)image{
     self.signatureImageView.image = image;
 }
