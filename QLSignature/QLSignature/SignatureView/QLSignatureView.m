@@ -102,7 +102,7 @@ CGPoint midpoint(CGPoint p0, CGPoint p1) {
 - (void)saveDraw
 {
     if (path.isEmpty) {
-        self.signImage = nil;
+        NSLog(@"没有签名！");
         return;
     }
     self.signImage = [self captureWithView:self];
